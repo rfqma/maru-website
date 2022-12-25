@@ -6,7 +6,7 @@ const AboutContainer = () => {
     return (
         <>
             {/* CONTAINER */}
-            <div className="container mx-auto p-10 2xl:w-5/12 xl:w-7/12 lg:w-9/12 md:w-11/12 sm:w-12/12 text-center rounded-lg ">
+            <div className="container p-10 mx-auto text-center rounded-lg 2xl:w-5/12 xl:w-7/12 lg:w-9/12 md:w-11/12 sm:w-12/12 ">
                 {/* CONTAINER HEADER */}
                 <div className="p-6">
                     <img src={img} className="w-40 rounded-full" alt="rifqi-maulana-profile-picture" />
@@ -29,12 +29,12 @@ const AboutContainer = () => {
                 <div className="p-6">
                     <h1 className="mb-5 text-2xl font-[rubik] font-bold">Latest Works</h1>
                     {/* YOUTUBE EMBED */}
-                    <div className="mb-10 w-full aspect-w-16 aspect-h-9">
+                    <div className="w-full mb-10 aspect-w-16 aspect-h-9">
                         <iframe className="rounded-lg" src="https://www.youtube.com/embed/MEYsn5IH2kc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     {/* END OF YOUTUBE EMBED */}
                     {/* INSTAGRAM EMBED */}
-                    <div className="border w-full aspect-w-16 aspect-h-14 rounded-lg">
+                    <div className="w-full border rounded-lg aspect-w-16 aspect-h-14">
                         <iframe className="rounded-lg" src="https://www.instagram.com/p/CkrwSwcPmq6/embed" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen></iframe>
                     </div>
                     {/* END OF INSTAGRAM EMEBD */}
